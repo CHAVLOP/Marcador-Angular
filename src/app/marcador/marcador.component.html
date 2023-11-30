@@ -15,3 +15,5 @@
   <app-equipo  class = "equipo" [equipo] = "equipoLocal" (canasta)="getCanastaLocal($event)"></app-equipo>
   <app-equipo class = "equipo" [equipo] = "equipoVisitante" (canasta)="getCanastaVisitante($event)"></app-equipo>
 </div>
+<app-topscore [equipoLocal]="equipoLocal" [equipoVisitante]="equipoVisitante"></app-topscore>
+

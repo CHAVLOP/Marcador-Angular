@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { EquipoComponent } from "../equipo/equipo.component";
+import { TopscoreComponent } from "../topscore/topscore.component";
 
 @Component({
     selector: 'app-marcador',
     standalone: true,
     templateUrl: './marcador.component.html',
     styleUrl: './marcador.component.css',
-    imports: [CommonModule, EquipoComponent]
+    imports: [CommonModule, EquipoComponent, TopscoreComponent]
 })
 export class MarcadorComponent {
 
